@@ -1,0 +1,61 @@
+.main {
+  display: grid;
+  grid-template-columns: 2px;
+}
+
+body {
+  display: grid;
+  place-items: center;
+  font-family: 'Permanent Marker';
+  background-color: #5D3C64;
+}
+
+h1 {
+  font-size: 2.5rem;
+  margin-bottom: 0;
+}
+
+.player {
+  font-size: 2rem;
+}
+
+.canvas {
+  display: grid;
+  grid-template-columns: 50vh 60vh;
+  height: 60vh;
+  width: 120vh;
+  border-style: outset;
+  border-radius: 25px 20px 20px 25px;
+  border-color: #000000;
+  background-color: #d391b0;
+  box-shadow: 0 0 5px #111111;
+}
+
+.leftSide, .rightSide {
+  display: grid;
+  place-items: center;
+  padding-left: 15vh;
+}
+
+.leftSide {
+  grid-template-columns: 20vh;
+  border-radius: 25px 50px 50px 25px;
+  background-color: #7b466a;
+  box-shadow: 0 0 5px #111111;
+}
+
+button {
+  height: 60px;
+  width: 25vh;
+  border-radius: 20px;
+  font-family: 'Permanent Marker';
+  font-size: 1.2rem;
+  background-color: #5D3C64;
+  color: white;
+  box-shadow: 0 0 10px #111111;
+}
+
+.rightSide {
+  color: #000000;
+  font-size: 1.8rem;
+}
